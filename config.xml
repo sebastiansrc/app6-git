@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns ="http://www.w">.org/ns/widgets"
-  xmlns:gap=""http://phonegap.com/ns/1.0
-  id ="com.phonegap.example1"
-  version ="1.0.0"
+<widget xmlns ="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0"
+  id ="com.phonegap.example6"
+  version ="1.0.0">
   
-  <name>app1 DATOSALUMNOS</name>
+  <name>app6 Batalla de puebla</name>
   
   <description>
   aplicacion que muestra los DATOS del alumno
