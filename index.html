@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sexta aplicacion</title>
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app1.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/zaragoza.jpg','imagenes/defensa-.jpg','imagenes/fuetre gua.jpg')">
+
+      <div data-role="page" id="Principal" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+           <h1>Batalla de Puebla</h1>
+          </div>
+          
+           <div data-role="collapsible" data-content-theme="false">
+             <h1>Inicios de la batalla de puebla</h1>
+             <div>
+              <p>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una gran deuda de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.
+
+La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.
+
+Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al Ejército de Oriente y el hombre que se designó en el mando fue el general Ignacio Zaragoza.</p>
+              <br>
+             </div>
+          </div>
+          
+          <div data-role="collapsible" data-content-theme="false">
+             <h1>Antes del 5 de mayo</h1>
+             <div>
+              <p>Antes del 5 de Mayo, el día  28 de abril de 1862 tuvo lugar un enfrentamiento conocido como la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército Mexicano. En este conflicto hubieron cerca de 500 bajas francesas en contra de apenas 50 bajas mexicanas. Pese a esto, el Ejército Expedicionario francés consigue hacerse con el control del Paso de Acultzingo.
+
+Después de la Batalla de las Cumbres el conde de Lorencez conservaba su confianza y mandó a decir a Napoleon III que: “Somos tan superiores a los mexicanos en organización, disciplina, raza, moral y refinamiento de sensibilidades, que le ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este momento y al mando de nuestros 6,000 valientes soldados, ya soy dueño de México”
+
+El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del Palmar en Veracruz con rumbo para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla ya que era paso obligado para llegar a la capital del país.
+
+Cabe señalar que el Partido Conservador apoyaba la Invasión francesa e incluso formaron parte de la guerrilla que atacó en varias ocasiones al Ejército de Oriente.</p>
+              <br>
+             </div>
+          </div>
+          
+         <div data-role="main" class="ui-content">   
+<div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>4 De Mayo</h2>
+
+             </a>
+         </li>
+         <li class="ui-first-child ui ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>5 De Mayo</h2>
+
+             </a>
+          </li>
+      
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Leyenda del 5 de Mayo</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Monumentos de la Batalla</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Heroes de la Batalla</h2>
+
+                </a>
+            </li>
+         
+           
+            <ul>
+            
+            
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/combate.jpg" alt="combate" title="combate" id="wows1_0"/></li>
+		<li><img src="data1/images/enfrentamiento..jpg" alt="enfrentamiento." title="enfrentamiento." id="wows1_1"/></li>
+		<li><img src="data1/images/enfrentamiento.jpg" alt="enfrentamiento" title="enfrentamiento" id="wows1_2"/></li>
+		<li><img src="data1/images/enfrentamiento_0.jpg" alt="enfrentamiento-" title="enfrentamiento-" id="wows1_3"/></li>
+		<li><img src="data1/images/fuerte.jpg" alt="fuerte" title="fuerte" id="wows1_4"/></li>
+		<li><img src="data1/images/resistencia.jpg" alt="resistencia" title="resistencia" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/soldados_franceses.jpg" alt="wowslider.com" title="soldados franceses" id="wows1_6"/></a></li>
+		<li><img src="data1/images/soldados_mexicanos.jpg" alt="soldados mexicanos" title="soldados mexicanos" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="combate"><span><img src="data1/tooltips/combate.jpg" alt="combate"/>1</span></a>
+		<a href="#" title="enfrentamiento."><span><img src="data1/tooltips/enfrentamiento..jpg" alt="enfrentamiento."/>2</span></a>
+		<a href="#" title="enfrentamiento"><span><img src="data1/tooltips/enfrentamiento.jpg" alt="enfrentamiento"/>3</span></a>
+		<a href="#" title="enfrentamiento-"><span><img src="data1/tooltips/enfrentamiento_0.jpg" alt="enfrentamiento-"/>4</span></a>
+		<a href="#" title="fuerte"><span><img src="data1/tooltips/fuerte.jpg" alt="fuerte"/>5</span></a>
+		<a href="#" title="resistencia"><span><img src="data1/tooltips/resistencia.jpg" alt="resistencia"/>6</span></a>
+		<a href="#" title="soldados franceses"><span><img src="data1/tooltips/soldados_franceses.jpg" alt="soldados franceses"/>7</span></a>
+		<a href="#" title="soldados mexicanos"><span><img src="data1/tooltips/soldados_mexicanos.jpg" alt="soldados mexicanos"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+          </div>
+          </div>
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+             <div>
+              <img src="res/android/logo.png" width="32" height="32"> </div>
+          <div>
+             <h4>Aplicacion seis</h4>
+             <h4>Sebastian Rodriguez Cabrera</h4>
+           </div>
+         </div>
+        </div>
+        <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>4 De Mayo</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>
+                <h2></h2>
+                <p>El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc.</p>
+                
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/defensa-.jpg',1)"><img src="imagenes/defensa.jpg" width="301" height="168" id="Image19"></a> </div>
+            </div>
+            
+            <div class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.paxala.com/la-batalla-de-puebla/" data-role="button" id="beep">
+    <h2>mas</h2>
+   </a>
+  </li>
+ <li class="ui-first-child ui-last-child">
+  <a href="http://www.historia-mexico.info/2012/08/batalla-de-puebla-la-batalla-del-5-de.html" data-role="button" id="vibrar">
+   <h2>mas</h2>
+  </a>
+ </li>
+</ul>
+</div>
+</div>
+            
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion seis, SRC</h4>
+            </div>
+          </div>
+          
+          
+          
+            
+            
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>5 de Mayo</h1>
+              </div>
+            <div data-role="content" align="center">
+              <div>
+                 <h2>Historia</h2>
+                 <p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, seria la primera batalla de una guerra que finalmente México ganaría.</p>
+                 
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/zaragoza.jpg',1)"><img src="imagenes/ignacio.jpg" width="192" height="256" id="Image18"></a> </div>
+            </div>
+            
+            <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://nenewsroom.com/resea-de-la-batalla-de-puebla-de-mayo-p1968-81.htm" data-role="button" id="beep">
+    <h2>Mas</h2>
+   </a>
+  </li>
+ <li class="ui-first-child ui-last-child">
+  <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button" id="vibrar">
+   <h2>Mas</h2>
+  </a>
+ </li>
+</ul>
+</div>
+</div>
+            
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion seis,SRC</h4>
+              </div>
+             </div>
+              
+              
+              <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Leyenda del 5 de Mayo</h1>
+                 </div>
+<div data-role="content" align="center">
+                   <div>
+                      <h2>Leyenda</h2>
+                      <p>Esta famosa batalla tuvo lugar en el año de 1862, en las proximidades de la Ciudad de Puebla, durante la llamada Segunda Intervención Francesa. El ejército de México estaba dirigido por Ignacio Zaragoza quien luchaba contra las tropas invasoras comandadas por Charles Ferdinand Latrille, conde de Lorencez.
+
+Cuenta una leyenda que un niño zacapoaxtla de la Sierra Norte de Puebla, se encontraba en la cercanía de los fuertes de Lorenzo y Guadalupe, que originalmente fueran capillas edificadas en el cerro Acueyametepec en honor a la Virgen de Loreto y a la Virgen de Guadalupe, y que en los inicios del siglo XIX se convirtieron en fortalezas militares. El lugar era clave para las tropas francesas, pues conquistando los fuertes, se abría el camino hacia la toma de la Ciudad de México. Por tanto era primordial para las tropas de Zaragoza conocer los movimientos de los soldados franceses.
+
+Como no podían ver bien la posición del enemigo, ni siquiera subiéndose a los árboles, cuyas ramas eran muy frágiles, el niño zacapoaxtla se subió ágilmente a un gran árbol con el fin de ver la posición de los soldados franceses y avisar a los mexicanos. Desde lo alto del árbol el niño iba diciendo a los mexicanos las posiciones y movimientos de los invasores.</p>
+                      <p>En ese momento los franceses se dieron cuenta de la presencia del niño y empezaron a atacar furiosamente. El niño persistió en su posición y siguió avisando de los movimientos del enemigo, cuando una terrible bala alcanzó el corazón del chamaco. Cayó al suelo ya muerto y ensangrentado.</p>
+                      <p>Con los informes proporcionados por el pequeño zacapoaxtla, los soldados mexicanos lograron vencer al tan reputado ejército francés. La ayuda había sido valiosísima. Poco tiempo después, enterraron al intrépido mocito, e Ignacio Zaragoza le nombre héroe de la Batalla de Puebla.</p> 
+                   </div>
+                 </div>
+                  <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion seis, SRC</h4>
+                 </div>
+                 </div>
+                 
+                  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Monumentos de la bBtalla</h1>
+                 </div>
+<div data-role="content" align="center">
+                   <div>
+                      <h2>Monumentos</h2>
+                      <p>El Fuerte de Loreto se construyó entre 1815 y 1817 para defender a la ciudad de los ataques suscitados por la guerra de independencia.</p>
+
+<p>El Fuerte de Guadalupe se levantó en 1862 al desatarse la lucha contra los invasores franceses que fueron derrotados en el enfrentamiento que ahí se produjo el 5 de mayo.</p>
+<p>&nbsp;</p>  
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/fuetre gua.jpg',1)"><img src="imagenes/fuetre lo.jpg" width="271" height="186" id="Image20"></a> 
+					</div>
+                 </div>
+                  <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion seis, SRC</h4>
+                 </div>
+                 </div>
+                 
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Heroes de la Batalla</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">Condecoraciones</span></h2>
+                      <p>El 21 de mayo de 1862 el presidente Juárez publicó el decreto de condecoración a los vencedores de las batallas del 28 de abril en las Cumbres de Acultzingo y del 5 de mayo en Puebla, y ambas se consideraron victorias ante el ejército expedicionario francés.
+                        
+                        El 30 de mayo se entregaron a los miembros del Ejército de Oriente los "diplomas de Concurrencia" a las mismas batallas, según lo estipulado en el artículo cuarto del mencionado decreto.
+                        
+                     El 29 de noviembre Juárez viajó, acompañado por sus ministros de Guerra, Miguel Blanco Múzquiz, y de Relaciones Exteriores y Gobernación, Juan Antonio de la Fuente, a Puebla para una serie de ceremonias y reconocimientos a los defensores de la ciudad. Se reunió con González Ortega, y finalmente, el 4 de diciembre, en medio de una gran ceremonia en el Fuerte de Guadalupe, hizo entrega formal de las medallas a los vencedores de las batallas del 28 de abril y del 5 de mayo de ese año, y partió al día siguiente a la Ciudad de México. Asimismo, el 2 de marzo de 1863, en vísperas del inicio del Sitio de Puebla, se llevó a cabo una segunda ceremonia en Guadalupe, en la que entregó más medallas.</p>  
+                   </div>
+                 </div>
+                 
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion seis, SRC</h4>
+                 </div>
+                 </div>
+                 
+                 
+</body>
+</html>
